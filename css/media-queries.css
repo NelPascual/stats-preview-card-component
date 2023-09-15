@@ -1,0 +1,57 @@
+@media only screen and (min-width: 740px) {
+
+    /* ++++++++++++++ GLOBAL STYLES ++++++++++++++ */
+
+    body {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+    }
+
+    h1,
+    p {
+        text-align: left;
+    }
+
+    /* ++++++++++++++ CARD ++++++++++++++ */
+
+    .background-container {
+        margin: auto;
+        padding: 1rem 0 0 0;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+    }
+
+    .card-text-container {
+        padding: 3rem;
+    }
+
+    .header-image,
+    .header-image img,
+    .header-image::after {
+        border-radius: 0 1.5rem 1.5rem 0;
+    }
+
+    .header-image {
+        background-image: url(../img/image-header-desktop.jpg);
+        grid-column: 2 / 3;
+        height: auto;
+    }
+
+    .card-text-container {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .statistics-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        column-gap: 3rem;
+    }
+}
