@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/NelPascual/order-summary-component)
-- Live Site URL: [Add live site URL here](https://order-summary-card-nelpascual.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/NelPascual/stats-preview-card-component)
+- Live Site URL: [Add live site URL here](https://stats-card-component-nelpascual.netlify.app/)
 
 ## My process
 
